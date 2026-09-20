@@ -70,16 +70,31 @@ I am a IEEE Senior Member and maintain active involvement in the IEEE Signal Pro
 <div class='paper-box-text' markdown="1">
 [EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)   
 Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
-- we introduce EDRIC, a highly effective neural compression framework that offers state-of-the-art compression efficiency while achieving real-time capability. To overcome the suboptimal downsampling scheme and inefficient feature extraction in conventional 3D frameworks, EDRIC serializes a 3D point cloud
-into a 1D sequence and introduces a lightweight 1D autoencoder to efficiently compress the serialized LiDAR reflectance signal. In addition, we explicitly incorporate geometric priors through a geometry-aware entropy model, effectively exploiting the interdependencies between reflectance attributes and underlying geometry. 
+- we introduce EDRIC, a highly effective neural compression framework that offers state-of-the-art compression efficiency while achieving real-time capability. To overcome the suboptimal downsampling scheme and inefficient feature extraction in conventional 3D frameworks, EDRIC serializes a 3D point cloud into a 1D sequence and introduces a lightweight 1D autoencoder to efficiently compress the serialized LiDAR reflectance signal. In addition, we explicitly incorporate geometric priors through a geometry-aware entropy model, effectively exploiting the interdependencies between reflectance attributes and underlying geometry. 
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/PACE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[PACE: Post-Causal Entropy Modeling for Learned LiDAR Point Cloud Compression](https://arxiv.org/abs/2605.01320)   
+[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://arxiv.org/abs/2605.01320)   
 Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 - we propose PACE, a new framework that reformulates ancestral context aggregation as a non-causal backbone and confines causality to a lightweight, stage-scalable predictor, eliminating repetitive backbone executions and reducing computational overhead. The predictor supports an arbitrary number of prediction stages, enabling seamless adaptation across diverse performance-latency trade-offs without reloading parameters.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIP 2026</div><img src='images/RD-LoRa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[RATE-DISTORTION OPTIMIZED LORA FOR EFFICIENT POST-FILTERING IN AV2](https://ieeexplore.ieee.org/abstract/document/11630555)   
+Kequan Mao, Xin Yang, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
+- we proposes RD-LORA, a rate-distortion (R-D) optimized low-rank adaptation (LoRA) framework for neural post-filtering in the upcoming AV2 coding standard. RD LoRA adapts a pre-trained base neural model to diverse input content via online updates to LoRA parameters, whose quantity is determined by the matrix ranks. The updated parameters are then quantized, transmitted to the decoder, and merged with the pre-trained weights for post-filtering.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISCAS 2026</div><img src='images/In-loop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://ieeexplore.ieee.org/abstract/document/11562614)   
+Kequan Mao, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
+- we proposes a neural self-guided filter for AV2, introducing two key techniques: (i) adaptive selection of the number of guidance channels for higher coding efficiency, and (ii) a vector quantization method for lower bitrate overhead. Our method is general and applicable to any network architecture. 
 </div>
 </div>
 
