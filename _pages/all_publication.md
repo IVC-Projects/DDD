@@ -6,7 +6,7 @@ author_profile: true
 ---
 # 📝 Full Publications List
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/EDRIC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/EDRIC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)   
 Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
@@ -14,7 +14,7 @@ Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/PACE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='/images/PACE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://arxiv.org/abs/2605.01320)   
 Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
@@ -22,7 +22,7 @@ Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIP 2026</div><img src='images/RD-LoRa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIP 2026</div><img src='/images/RD-LoRa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [RATE-DISTORTION OPTIMIZED LORA FOR EFFICIENT POST-FILTERING IN AV2](https://ieeexplore.ieee.org/abstract/document/11630555)   
 Kequan Mao, Xin Yang, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
@@ -30,7 +30,7 @@ Kequan Mao, Xin Yang, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISCAS 2026</div><img src='images/In-loop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISCAS 2026</div><img src='/images/In-loop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://ieeexplore.ieee.org/abstract/document/11562614)   
 Kequan Mao, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
