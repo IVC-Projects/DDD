@@ -65,7 +65,24 @@ I am a IEEE Senior Member and maintain active involvement in the IEEE Signal Pro
 
 # 📝 Publications <a href="{{ '/publications/' | relative_url }}" target="_self" style="text-decoration: underline; font-weight: bold; background-color: #eee; padding: 0 4px; border-radius: 3px; color: #337ab7; font-size: 1.0em;">more publications</a>
 <div class="slide-group">
-  
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/EDRIC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)   
+Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
+- we introduce EDRIC, a highly effective neural compression framework that offers state-of-the-art compression efficiency while achieving real-time capability. To overcome the suboptimal downsampling scheme and inefficient feature extraction in conventional 3D frameworks, EDRIC serializes a 3D point cloud
+into a 1D sequence and introduces a lightweight 1D autoencoder to efficiently compress the serialized LiDAR reflectance signal. In addition, we explicitly incorporate geometric priors through a geometry-aware entropy model, effectively exploiting the interdependencies between reflectance attributes and underlying geometry. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/PACE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[PACE: Post-Causal Entropy Modeling for Learned LiDAR Point Cloud Compression](https://arxiv.org/abs/2605.01320)   
+Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
+- we propose PACE, a new framework that reformulates ancestral context aggregation as a non-causal backbone and confines causality to a lightweight, stage-scalable predictor, eliminating repetitive backbone executions and reducing computational overhead. The predictor supports an arbitrary number of prediction stages, enabling seamless adaptation across diverse performance-latency trade-offs without reloading parameters.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2025</div><img src='images/Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11289509)   
