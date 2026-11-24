@@ -38,14 +38,16 @@ I am currently a professor at the School of Information Science and Technology, 
 
 I have published over 90 high-quality papers in leading journals and conferences, including Proceedings of the IEEE, TPAMI, TIP, TVCG, TCSVT, TMM, etc., as well as top conferences such as CVPR, ICML, AAAI, IJCAI, and ACM MM. I have been actively engaged in international video coding standardization activities since 2007. My early contributions included work on MPEG Reconfigurable Video Coding (RVC), and in 2011, I was awarded the MPEG Appreciation Prize in recognition of my work in RVC. 
 
-I am a IEEE Senior Member and maintain active involvement in the IEEE Signal Processing Society and the IEEE Circuits and Systems Society. I served as Organizing Co-Chair of the ICME Workshop in 2023 and as International Liaison Co-Chair for the IEEE MMSP in 2024. I currently serve as an Associate Editor for IEEE Signal Processing Letters (SPL).
+I am an IEEE Senior Member and serve on the [Visual Signal Processing and Communications Technical Committee (VSPC TC)](https://ieee-cas.org/technical-committee/visual-signal-processing-and-communications-vspc) of the IEEE Circuits and Systems Society and the [Multimedia Signal Processing Technical Committee (MMSP TC)](https://signalprocessingsociety.org/community-involvement/multimedia-signal-processing) of the IEEE Signal Processing Society. I served as Organizing Co-Chair of the ICME Workshop in 2023 and as International Liaison Co-Chair for the IEEE MMSP in 2024. I currently serve as an Associate Editor for IEEE Signal Processing Letters (SPL).
 
 
 
 # 🔥 News <a href="{{ '/news/' | relative_url }}" target="_self" style="text-decoration: underline; margin-left: 10px; font-weight: bold; background-color: #eee; padding: 0 4px; border-radius: 3px; color: #337ab7; font-size: 1.0em;">more news</a>
 
 <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.8;">
-  <li><strong>2026.01</strong>: &nbsp;📢 Serving as <strong>Area Chair</strong> for <strong>ICASSP 2026</strong> and <strong>ICME 2026</strong>.</li>
+   <li><strong>2026.11</strong>: &nbsp;📢 Serving as <strong>Area Chair</strong> for <strong>IEEE ICASSP 2027</strong>.</li>
+  <li><strong>2026.09</strong>: &nbsp;🤝 Co-organized the <a href="https://www.ieeecfm.org/"><strong>Fourth IEEE Workshop on Coding for Machines (CfM)</strong></a>, a satellite workshop at <strong>IEEE ICIP 2026</strong>.</li>
+ <li><strong>2026.01</strong>: &nbsp;📢 Serving as <strong>Area Chair</strong> for <strong>ICASSP 2026</strong> and <strong>ICME 2026</strong>.</li>
   <li><strong>2025.10</strong>: &nbsp;📄 Paper on "GeoQE" (Point Cloud Streaming) accepted by <strong>ACM MM 2025</strong>.</li>
   <li><strong>2025.07</strong>: &nbsp;🎉 One paper on LiDAR reflectance compression accepted by <strong>ICML 2025</strong>.</li>
   <li><strong>2025.06</strong>: &nbsp;🚀 Presented "Reno" (Real-time Neural Compression) at <strong>CVPR 2025</strong>.</li>
