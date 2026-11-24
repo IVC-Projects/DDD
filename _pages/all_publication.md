@@ -6,6 +6,22 @@ author_profile: true
 ---
 # 📝 Full Publications List
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Asia 2026</div><img src='https://raw.githubusercontent.com/gameleon2026/anon-demo/main/paper/visual_result.jpg' alt="Gameleon rendered point cloud comparison" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+[Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance](https://doi.org/10.1145/3829340.3842343)   
+Zehong Li, Jinyang Li, Yueyu Hu, **Dandan Ding**, Zhan Ma
+- Gameleon compresses point-cloud geometry and color into features that decode directly into renderable Gaussians, eliminating an explicit point-cloud reconstruction step. The full decoding and rendering pipeline runs at 18.5 FPS on one RTX 4090, and the lightweight variant reaches 25.6 FPS.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='https://arxiv.org/html/2610.11302v3/pipeline_v8.png' alt="iCATS sparse attention pipeline" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+[iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity](https://openreview.net/forum?id=PtTQa5xo9Q)   
+Chengfeng Han, Ang Wang, Baole Ai, Xianlu Bian, Jie Yao, Zilong Huang, **Dandan Ding**&#42;
+- iCATS speeds up video diffusion models without retraining. It clusters tokens using query–key interactions, adapts sparsity across denoising steps, and reduces padding in GPU kernels. The paper reports speedups of 2.03× on HunyuanVideo-T2V-13B and 1.55× on Wan2.1-T2V-14B.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/EDRIC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)   
@@ -165,6 +181,8 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 - Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021
  
 ## Conference Papers
+- Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance, Z. Li, J. Li, Y. Hu, D. Ding, Z. Ma, SIGGRAPH Asia 2026
+- iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity, C. Han, A. Wang, B. Ai, X. Bian, J. Yao, Z. Huang, D. Ding*, NeurIPS 2026
 - GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
 - Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025
 - Reno: Real-time Neural Compression for 3D LiDAR Point Clouds, K. You, T. Chen, D. Ding, M. S. Asif, Z. Ma, CVPR 2025 
