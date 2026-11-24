@@ -71,7 +71,7 @@ I am an IEEE Senior Member and serve on the [Visual Signal Processing and Commun
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Asia 2026</div><img src='https://raw.githubusercontent.com/gameleon2026/anon-demo/main/paper/visual_result.jpg' alt="Gameleon rendered point cloud comparison" width="100%" loading="lazy"></div></div>
 <div class='paper-box-text' markdown="1">
 [Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance](https://doi.org/10.1145/3829340.3842343)   
-Zehong Li, Jinyang Li, Yueyu Hu, **Dandan Ding**, Zhan Ma
+Zehong Li, Jinyang Li, Yueyu Hu, **Dandan Ding**&#42;, Zhan Ma
 - Gameleon compresses point-cloud geometry and color into features that decode directly into renderable Gaussians, eliminating an explicit point-cloud reconstruction step. The full decoding and rendering pipeline runs at 18.5 FPS on one RTX 4090, and the lightweight variant reaches 25.6 FPS.
 </div>
 </div>
@@ -187,7 +187,9 @@ Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 - Point Cloud Upsampling via Perturbation Learning, D. Ding, C. Qiu, F. Liu, Z. Pan*, IEEE TCSVT 2021
 
 ## Conference Papers
-71:0- GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
+- Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance, Z. Li, J. Li, Y. Hu, D. Ding*, Z. Ma, SIGGRAPH Asia 2026
+- iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity, C. Han, A. Wang, B. Ai, X. Bian, J. Yao, Z. Huang, D. Ding*, NeurIPS 2026
+- GeoQE: Enhancing Quality of Experience in Point Cloud Streaming, J. Zhang, C. Han, D. Ding*, Z. Ma, ACM MM 2025 
 - Efficient LiDAR Reflectance Compression via Scanning Serialization, J. Zhu, K. You, D. Ding*, Z. Ma, ICML 2025
 - Reno: Real-time Neural Compression for 3D LiDAR Point Clouds, K. You, T. Chen, D. Ding, M. S. Asif, Z. Ma, CVPR 2025 
 - Compressing 3D Gaussian Splatting via a Generalizable Neural Coder, J. Zhang, T. Chen, H. Zhu, D. Wang, D. Ding, Z. Ma, IEEE VCIP 2024 
