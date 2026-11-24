@@ -6,9 +6,9 @@ author_profile: true
 ---
 # 📝 Full Publications List
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Asia 2026</div><img src='https://raw.githubusercontent.com/gameleon2026/anon-demo/main/paper/visual_result.jpg' alt="Gameleon rendered point cloud comparison" width="100%" loading="lazy"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Asia 2026</div><img src='https://raw.githubusercontent.com/gameleon2026/anon-demo/main/paper/system_overview.png' alt="Gameleon system overview showing 4D capture, compression, decoding, and rendering" width="100%" loading="lazy"></div></div>
 <div class='paper-box-text' markdown="1">
-[Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance](https://doi.org/10.1145/3829340.3842343)   
+[Gameleon: Gaussianizing Point Clouds for On-Demand 4D Performance](https://doi.org/10.1145/3829340.3842343)<br />
 Zehong Li, Jinyang Li, Yueyu Hu, **Dandan Ding**&#42;, Zhan Ma
 - Gameleon compresses point-cloud geometry and color into features that decode directly into renderable Gaussians, eliminating an explicit point-cloud reconstruction step. The full decoding and rendering pipeline runs at 18.5 FPS on one RTX 4090, and the lightweight variant reaches 25.6 FPS.
 </div>
@@ -16,7 +16,7 @@ Zehong Li, Jinyang Li, Yueyu Hu, **Dandan Ding**&#42;, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='https://arxiv.org/html/2610.11302v3/pipeline_v8.png' alt="iCATS sparse attention pipeline" width="100%" loading="lazy"></div></div>
 <div class='paper-box-text' markdown="1">
-[iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity](https://openreview.net/forum?id=PtTQa5xo9Q)   
+[iCATS: Fast Video Generation via Interaction-Aware Sparse Attention and Timestep-Adaptive Sparsity](https://openreview.net/forum?id=PtTQa5xo9Q)<br />
 Chengfeng Han, Ang Wang, Baole Ai, Xianlu Bian, Jie Yao, Zilong Huang, **Dandan Ding**&#42;
 - iCATS speeds up video diffusion models without retraining. It clusters tokens using query–key interactions, adapts sparsity across denoising steps, and reduces padding in GPU kernels. The paper reports speedups of 2.03× on HunyuanVideo-T2V-13B and 1.55× on Wan2.1-T2V-14B.
 </div>
@@ -24,7 +24,7 @@ Chengfeng Han, Ang Wang, Baole Ai, Xianlu Bian, Jie Yao, Zilong Huang, **Dandan 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='/images/EDRIC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)   
+[EDRIC: Embracing 1D Autoencoder for Real-Time Lossy LiDAR Reflectance Compression](https://ieeexplore.ieee.org/abstract/document/11644864)<br />
 Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
 - we introduce EDRIC, a highly effective neural compression framework that offers state-of-the-art compression efficiency while achieving real-time capability. To overcome the suboptimal downsampling scheme and inefficient feature extraction in conventional 3D frameworks, EDRIC serializes a 3D point cloud into a 1D sequence and introduces a lightweight 1D autoencoder to efficiently compress the serialized LiDAR reflectance signal. In addition, we explicitly incorporate geometric priors through a geometry-aware entropy model, effectively exploiting the interdependencies between reflectance attributes and underlying geometry. 
 </div>
@@ -32,7 +32,7 @@ Jiahao Zhu, Kang You, Kequan Mao, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='/images/PACE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://arxiv.org/abs/2605.01320)   
+[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://arxiv.org/abs/2605.01320)<br />
 Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 - we propose PACE, a new framework that reformulates ancestral context aggregation as a non-causal backbone and confines causality to a lightweight, stage-scalable predictor, eliminating repetitive backbone executions and reducing computational overhead. The predictor supports an arbitrary number of prediction stages, enabling seamless adaptation across diverse performance-latency trade-offs without reloading parameters.
 </div>
@@ -40,7 +40,7 @@ Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIP 2026</div><img src='/images/RD-LoRa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[RATE-DISTORTION OPTIMIZED LORA FOR EFFICIENT POST-FILTERING IN AV2](https://ieeexplore.ieee.org/abstract/document/11630555)   
+[RATE-DISTORTION OPTIMIZED LORA FOR EFFICIENT POST-FILTERING IN AV2](https://ieeexplore.ieee.org/abstract/document/11630555)<br />
 Kequan Mao, Xin Yang, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
 - we proposes RD-LORA, a rate-distortion (R-D) optimized low-rank adaptation (LoRA) framework for neural post-filtering in the upcoming AV2 coding standard. RD LoRA adapts a pre-trained base neural model to diverse input content via online updates to LoRA parameters, whose quantity is determined by the matrix ranks. The updated parameters are then quantized, transmitted to the decoder, and merged with the pre-trained weights for post-filtering.
 </div>
@@ -48,7 +48,7 @@ Kequan Mao, Xin Yang, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISCAS 2026</div><img src='/images/In-loop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://ieeexplore.ieee.org/abstract/document/11562614)   
+[Adaptive AV2 In-loop Filtering via Guided Neural Model with Vectorized Quantization](https://ieeexplore.ieee.org/abstract/document/11562614)<br />
 Kequan Mao, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
 - we proposes a neural self-guided filter for AV2, introducing two key techniques: (i) adaptive selection of the number of guidance channels for higher coding efficiency, and (ii) a vector quantization method for lower bitrate overhead. Our method is general and applicable to any network architecture. 
 </div>
@@ -56,7 +56,7 @@ Kequan Mao, **Dandan Ding***, Urvang Joshi, Debargha Mukherjee
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2025</div><img src='/images/Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11289509)   
+[Improving Occupancy Prediction for Multiscale Point Cloud Geometry Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11289509)<br />
 Zehong Li, Jiahao Zhu, **Dandan Ding***, Zhan Ma
 - We propose two new techniques. The first is KPA (Key Point-driven Attention), which integrates both local and global characteristics. The second is AdaScale (Adaptive Lossy/Lossless Scale), which decides whether the transitional scale should be in lossless or lossy mode based on temporal displacement, thereby enhancing the reconstruction quality of the temporal reference.
 </div>
@@ -64,7 +64,7 @@ Zehong Li, Jiahao Zhu, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='/images/Revisit Point Cloud Quality Assessment Current Advances and a Multiscale-Inspired Approach.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11048499)   
+[Revisit Point Cloud Quality Assessment: Current Advances and a Multiscale-Inspired Approach](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11048499)<br />
 Junzhe Zhang, Tong Chen, **Dandan Ding***, Zhan Ma
 - We paper proposes PQI, a simple yet efficient metric to index point cloud quality. PQI suggests using scale-wise key points to uniformly perceive distortions within a point cloud, along with a mild neighborhood size associated with each key point for compromised N2N computation.
 </div>
@@ -72,7 +72,7 @@ Junzhe Zhang, Tong Chen, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2025</div><img src='/images/Scalable Point Cloud Attribute Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Scalable Point Cloud Attribute Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313579)   
+[Scalable Point Cloud Attribute Compression](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10313579)<br />
 Junzhe Zhang, Jianqiang Wang, **Dandan Ding***, Zhan Ma
 - We develops a Scalable Point Cloud Attribute Compression solution, termed ScalablePCAC. In a two-layer example, ScalablePCAC uses the standard G-PCC at the base layer to directly encode the thumbnail point cloud that is downscaled from the original input, and a learning-based model at the enhancement layer to compress and restore the full-resolutioninput point cloud conditioned on the base layer reconstruction.
 </div>
@@ -80,7 +80,7 @@ Junzhe Zhang, Jianqiang Wang, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/GeoQE Enhancing Quality of Experience in Point Cloud Streaming.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[GeoQE: Enhancing Quality of Experience in Point Cloud Streaming](https://dl.acm.org/doi/epdf/10.1145/3746027.3754909)   
+[GeoQE: Enhancing Quality of Experience in Point Cloud Streaming](https://dl.acm.org/doi/epdf/10.1145/3746027.3754909)<br />
 Junzhe Zhang, Chengfeng Han, **Dandan Ding***, Zhan Ma
 - we propose GeoQE, an enhancement model that seamlessly integrates with the G-PCC decoder to mitigate compression artifacts and improve QoE.
 </div>
@@ -88,7 +88,7 @@ Junzhe Zhang, Chengfeng Han, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='/images/Efficient LiDAR Reflectance Compression via Scanning Serialization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Efficient LiDAR Reflectance Compression via Scanning Serialization](https://arxiv.org/pdf/2505.09433)  
+[Efficient LiDAR Reflectance Compression via Scanning Serialization](https://arxiv.org/pdf/2505.09433)<br />
 Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 - We introduce SerLiC, a serialization-based neural compression frame work to fully exploit the intrinsic characteristics of LiDAR reflectance.
 </div>
@@ -96,7 +96,7 @@ Jiahao Zhu, Kang You, **Dandan Ding***, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='/images/Reno Real-time Neural Compression for 3D LiDAR Point Clouds.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Reno: Real-time Neural Compression for 3D LiDAR Point Clouds](https://arxiv.org/pdf/2505.09433)  
+[Reno: Real-time Neural Compression for 3D LiDAR Point Clouds](https://arxiv.org/pdf/2505.09433)<br />
 Kang You, Tong Chen, **Dandan Ding**, M.Salman Asif, Zhan Ma
 - We proposes RENO, the first real-time neural codec for 3D LiDAR point clouds, achieving superior performance with a lightweight model.
 </div>
@@ -104,7 +104,7 @@ Kang You, Tong Chen, **Dandan Ding**, M.Salman Asif, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='/images/exploit contextual clustering in learned image coding.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Another way to the top: exploit contextual clustering in learned image coding](https://ojs.aaai.org/index.php/AAAI/article/view/28791)  
+[Another way to the top: exploit contextual clustering in learned image coding](https://ojs.aaai.org/index.php/AAAI/article/view/28791)<br />
 Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 - We propose Contextual Clustering based LIC (CLIC), which relies on clustering operations and local attention instead of traditional convolutions to generate compact representations for image compression.
 </div>
@@ -112,7 +112,7 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2023</div><img src='/images/Neural Adaptive Loop Filtering for Video Coding Exploring Multi-Hypothesis Sample Refinement.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-Hypothesis Sample Refinement](https://ieeexplore.ieee.org/abstract/document/10078282)  
+[Neural Adaptive Loop Filtering for Video Coding: Exploring Multi-Hypothesis Sample Refinement](https://ieeexplore.ieee.org/abstract/document/10078282)<br />
 **Dandan Ding**, Junjie Wang, Guangkun Zhen, Debargha Mukherjee, Urvang Joshi, Zhan Ma
 - We reformulate ALF as a Multi-Hypothesis Sample Refinement (MSR) problem, using a DNN model to generate multiple distortion hypotheses that are linearly superimposed to approximate the final reconstruction.
 </div>
@@ -120,7 +120,7 @@ Yichi Zhang, Zhihao Duan, Ming Lu, **Dandan Ding**, Fengqing Zhu, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2023</div><img src='/images/Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression](https://ieeexplore.ieee.org/abstract/document/9968173)  
+[Sparse Tensor-based Multiscale Representation for Point Cloud Geometry Compression](https://ieeexplore.ieee.org/abstract/document/9968173)<br />
 Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 - We propose SparsePCGC, a low-complexity multiscale representation that performs sparse convolutions only on most-probable positively-occupied voxels to characterize spatial correlations efficiently.
 </div>
@@ -128,7 +128,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCyb 2022</div><img src='/images/Biprediction-Based Video Quality Enhancement via Learning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Biprediction-Based Video Quality Enhancement via Learning](https://ieeexplore.ieee.org/abstract/document/9119800)  
+[Biprediction-Based Video Quality Enhancement via Learning](https://ieeexplore.ieee.org/abstract/document/9119800)<br />
 **Dandan Ding**, Wenyu Wang, Junchao Tong, Xinbo Gao, Zoe Liu, Yong Fang
 - We develop a biprediction-based multiframe video enhancement (PMVE) framework that synthesizes virtual frames to extract cross-correlations between successive frames for high-accuracy quality restoration.
 </div>
@@ -137,7 +137,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 <!--
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Proc. IEEE 2021</div><img src='/images/Advances In Video Compression System Using Deep Neural Network.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Advances In Video Compression System Using Deep Neural Network: A Review And Case Studies](https://ieeexplore.ieee.org/abstract/document/9369668)  
+[Advances In Video Compression System Using Deep Neural Network: A Review And Case Studies](https://ieeexplore.ieee.org/abstract/document/9369668)<br />
 **Dandan Ding**, Zhan Ma, Di Chen, Qingshuang Chen, Zoe Liu, Fengqing Zhu
 - This article extensively reviews technical advances in video compression using deep neural networks, presenting case studies on semantic pre-processing, end-to-end neural coding, and neural adaptive post-processing.
 </div>
@@ -146,7 +146,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2021</div><img src='/images/Neural Reference Synthesis for Inter Frame Coding.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Neural Reference Synthesis for Inter Frame Coding](https://ieeexplore.ieee.org/abstract/document/9658260)  
+[Neural Reference Synthesis for Inter Frame Coding](https://ieeexplore.ieee.org/abstract/document/9658260)<br />
 **Dandan Ding**, Xiang Gao, Chenran Tang, Zhan Ma
 - We propose a Neural Reference Synthesis (NRS) framework with joint optimization of reconstruction enhancement and reference synthesis modules to improve both in-ring filtering and inter-frame prediction.
 </div>
@@ -154,7 +154,7 @@ Jianqiang Wang, **Dandan Ding**, Zhu Li, Xiaoxing Feng, Chuntong Cao, Zhan Ma
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2021</div><img src='/images/Point Cloud Upsampling via Perturbation Learning.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Point Cloud Upsampling via Perturbation Learning](https://ieeexplore.ieee.org/abstract/document/9493165)  
+[Point Cloud Upsampling via Perturbation Learning](https://ieeexplore.ieee.org/abstract/document/9493165)<br />
 **Dandan Ding**, Chi Qiu, Fuchang Liu, Zhigeng Pan
 - We propose learning 2D perturbations through MLPs to estimate coordinate shifts from sparse input points to upsampled dense points, outperforming state-of-the-art methods in geometric uniformity.
 </div>
